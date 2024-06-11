@@ -23,31 +23,6 @@
   },
   "packageRules": [
     {
-      "matchRepositories": [
-        "testbryce/teset-repository"
-      ],
-      "matchPackagePatterns": [
-        "^Azure/login@v1",
-        "^actions/checkout@v2",
-        "^actions/checkout@v3",
-        "^actions/setup-dotnet@v3",
-        "^actions/upload-artifact@v3",
-        "^hashicorp/setup-terraform@v1",
-        "^racwa/blast-radius-calculation-action@1",
-        "^github/codeql-action/upload-sarif@v2",
-        "^github/codeql-action/init@v2",
-        "^github/codeql-action/autobuild@v2",
-        "^github/codeql-action/analyze@v2",
-        "^ASzc/change-string-case-action@v5"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": "deprecated node dependencies",
-      "groupSlug": "deprecated-node-dependencies",
-      "dependencyDashboardApproval": true
-    },
-    {
       "matchPackagePatterns": [
         "*"
       ],
