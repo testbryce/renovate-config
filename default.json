@@ -1,0 +1,110 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "major": {
+    "dependencyDashboardApproval": true,
+    "addLabels": [
+      "major-upgrade"
+    ]
+  },
+  "transitiveRemediation": true,
+  "osvVulnerabilityAlerts": false,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "security"
+    ],
+    "groupName": "{{{vulnerabilitySeverity}}} vulnerable dependencies"
+  },
+  "packageRules": [
+    {
+      "matchRepositories": [
+        "testbryce/teset-repository"
+      ],
+      "matchPackagePatterns": [
+        "^Azure/login@v1",
+        "^actions/checkout@v2",
+        "^actions/checkout@v3",
+        "^actions/setup-dotnet@v3",
+        "^actions/upload-artifact@v3",
+        "^hashicorp/setup-terraform@v1",
+        "^racwa/blast-radius-calculation-action@1",
+        "^github/codeql-action/upload-sarif@v2",
+        "^github/codeql-action/init@v2",
+        "^github/codeql-action/autobuild@v2",
+        "^github/codeql-action/analyze@v2",
+        "^ASzc/change-string-case-action@v5"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "deprecated node dependencies",
+      "groupSlug": "deprecated-node-dependencies",
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "matchCurrentVersion": "/^[~^]?0/",
+      "dependencyDashboardApproval": true,
+      "addLabels": [
+        "major-upgrade"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "npm",
+        "nuget",
+        "terraform-module",
+        "terraform-provider"
+      ],
+      "minimumReleaseAge": "14 days"
+    }
+  ],
+  "hostRules": [],
+  "nuget": {
+    "registryUrls": [
+      "https://api.nuget.org/v3/index.json"
+    ]
+  }
+}
