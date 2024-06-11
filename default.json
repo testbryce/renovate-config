@@ -49,7 +49,7 @@
     },
     {
       "matchPackagePatterns": [
-        "*"
+        "test"
       ],
       "matchUpdateTypes": [
         "minor",
