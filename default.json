@@ -24,7 +24,7 @@
   "packageRules": [
     {
       "matchRepositories": [
-        "testbryce/teset-repository"
+        "testbryce/todo-api"
       ],
       "matchPackagePatterns": [
         "^Azure/login@v1",
