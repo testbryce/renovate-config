@@ -5,7 +5,6 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [ "*" ],
       "matchUpdateTypes": [
         "minor",
         "patch",
@@ -14,17 +13,7 @@
         "major"
       ],
       "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
-      "dependencyDashboardApproval": false
-    },
-    {
-      "matchDatasources": [
-        "npm",
-        "nuget",
-        "terraform-module",
-        "terraform-provider"
-      ],
-      "minimumReleaseAge": "14 days"
+      "groupSlug": "all-minor-patch"
     }
   ],
   "hostRules": [],
