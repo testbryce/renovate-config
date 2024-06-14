@@ -28,8 +28,7 @@
       ],
       "matchUpdateTypes": [
         "minor",
-        "patch",
-        "pin"
+        "patch"
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
