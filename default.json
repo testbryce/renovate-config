@@ -8,9 +8,6 @@
   "transitiveRemediation": true,
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
       "matchUpdateTypes": [
         "minor",
         "patch",
@@ -20,14 +17,14 @@
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": false
     },
     {
       "matchUpdateTypes": [
         "minor"
       ],
       "matchCurrentVersion": "/^[~^]?0/",
-      "dependencyDashboardApproval": true,
+      "dependencyDashboardApproval": false,
       "addLabels": [
         "minor-upgrade"
       ]
