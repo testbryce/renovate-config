@@ -14,17 +14,7 @@
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
-      "dependencyDashboardApproval": true
-    },
-    {
-      "matchUpdateTypes": [
-        "minor"
-      ],
-      "matchCurrentVersion": "/^[~^]?0/",
-      "dependencyDashboardApproval": true,
-      "addLabels": [
-        "minor-upgrade"
-      ]
+      "dependencyDashboardApproval": false
     },
     {
       "matchDatasources": [
