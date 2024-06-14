@@ -15,7 +15,8 @@
         "minor",
         "patch",
         "digest",
-        "bump"
+        "bump",
+        "major"
       ],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
