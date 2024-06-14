@@ -6,14 +6,6 @@
     "dependencies"
   ],
   "transitiveRemediation": true,
-  "osvVulnerabilityAlerts": false,
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "labels": [
-      "security"
-    ],
-    "groupName": "{{{vulnerabilitySeverity}}} vulnerable dependencies"
-  },
   "packageRules": [
     {
       "matchPackagePatterns": [
