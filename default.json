@@ -4,7 +4,9 @@
     {
       "matchUpdateTypes": [
         "major"
-      ]
+      ],
+      "enabled": false
+      
     },
     {
       "matchDepNames": [
