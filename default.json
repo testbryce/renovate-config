@@ -10,11 +10,5 @@
         "major"
       ]
     }
-  ],
-  "hostRules": [],
-  "nuget": {
-    "registryUrls": [
-      "https://api.nuget.org/v3/index.json"
-    ]
-  }
+  ]
 }
