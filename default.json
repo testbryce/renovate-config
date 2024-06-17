@@ -5,6 +5,11 @@
       "matchUpdateTypes": [
         "major"
       ]
+    },
+    {
+      "matchDepNames": [
+        "checkout"
+      ]
     }
   ]
 }
