@@ -2,6 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchRepositories": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "bump",
+        "digest"
+      ],
+      "enable": false
+    },
+    {
       "matchUpdateTypes": [
         "major"
       ],
