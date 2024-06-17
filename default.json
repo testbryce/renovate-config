@@ -8,7 +8,7 @@
         "bump",
         "digest"
       ],
-      "enable": false
+      "enabled": false
     },
     {
       "matchUpdateTypes": [
