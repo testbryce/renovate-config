@@ -6,10 +6,6 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest",
-        "bump",
         "major"
       ],
       "groupName": "all non-major dependencies",
