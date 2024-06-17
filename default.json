@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "major"
+        "patch"
       ]
     }
   ]
