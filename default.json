@@ -7,6 +7,12 @@
       ],
       "groupName": "what the fuck",
       "groupSlug": "all-minor-patch"
+    },
+    {
+      "excludePackagePatterns": [
+        "*"
+      ],
+      "enabled": false
     }
   ]
 }
