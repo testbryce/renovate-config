@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": "what the fuck",
+      "groupName": "what the heckin",
       "groupSlug": "all-minor-patch"
     }
   ]
