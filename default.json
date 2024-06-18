@@ -5,14 +5,8 @@
       "matchPackagePatterns": [
         "*"
       ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "bump",
-        "digest",
-        "major"
-      ],
-      "enabled": false
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
     },
     {
       "matchUpdateTypes": [
