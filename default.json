@@ -9,7 +9,8 @@
         "minor",
         "patch",
         "bump",
-        "digest"
+        "digest",
+        "major"
       ],
       "enabled": false
     },
